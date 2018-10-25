@@ -1,6 +1,6 @@
 # Practice for cracking any coding interview
 ## Mathematical
-### 1. Print the pattern | Set-1 [Answer](http://)
+### 1. Print the pattern | Set-1 [Answer](https://github.com/laitr01/Practice-for-cracking-any-coding-interview/blob/master/Algothrims/src/mathematical/PrintThePattern.kt)
 ```
 You a given a number N. You need to print the pattern for the given value of N.
 for N=2 the pattern will be 
