@@ -1,7 +1,5 @@
 package extensions.string
 
-import java.util.*
-
 fun String.isPalindrome(length: Int): Boolean {
     val halfOfTextLen = if (length % 2 == 0) length / 2 else (length - 1) / 2
     for (i in 0 until halfOfTextLen) {
@@ -78,7 +76,85 @@ fun String.upperFirstLetterOfWord(): String {
     return String(array)
 }
 
-fun Char.isLowerLetter(): Boolean {
-    return toInt() in 97..122
+fun Char.isLowerLetter(): Boolean = toInt() in 97..122
+
+fun Char.isUpperLetter(): Boolean = toInt() in 65..90
+
+fun Char.isLetter(): Boolean = isLowerLetter() || isUpperLetter()
+
+fun Char.isNotSpace(): Boolean {
+    return toInt() != 32
 }
 
+fun String.merge(other: String): String {
+    val isLarge = other.length <= length
+    val indexTravelTo = if (!isLarge) length else other.length
+    val resultBuilder = StringBuilder()
+
+    for (i in 0 until indexTravelTo) {
+        if (this[i].isNotSpace()) {
+            resultBuilder.append(this[i])
+        }
+        if (other[i].isNotSpace()) {
+            resultBuilder.append(other[i])
+        }
+    }
+
+    resultBuilder.append(if (isLarge) {
+        substring(indexTravelTo, length).replace(" ", "")
+    } else {
+        other.substring(indexTravelTo, other.length).replace(" ", "")
+    })
+
+    return resultBuilder.toString()
+}
+
+
+fun String.isGood(): Boolean {
+    var vowelCount = 0
+    var constantCount = 0
+    for(i in 0 until length){
+        if(vowelCount >= 5 || constantCount >= 3){
+            return false
+        }
+
+        if(this[i].isVowel()){
+            vowelCount++
+            constantCount = 0
+        }
+
+        if(this[i].isConstant()){
+            constantCount++
+            vowelCount = 0
+        }
+
+        if(!this[i].isVowel() && !this[i].isConstant()){
+            constantCount = 0
+            vowelCount = 0
+        }
+    }
+    return true
+}
+
+val vowelArray = arrayOf( 'a', 'e', 'i', 'o', 'u' )
+
+fun Char.isVowel(): Boolean {
+    vowelArray.forEach {
+        if(this == it){
+            return true
+        }
+    }
+    return false
+}
+
+fun Char.isConstant(): Boolean {
+    if (!this.isLetter()) {
+        return false
+    }
+    vowelArray.forEach {
+        if(this == it){
+            return false
+        }
+    }
+    return true
+}
