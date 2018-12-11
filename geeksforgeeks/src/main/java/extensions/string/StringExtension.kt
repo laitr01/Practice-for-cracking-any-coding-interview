@@ -113,34 +113,38 @@ fun String.merge(other: String): String {
 fun String.isGood(): Boolean {
     var vowelCount = 0
     var constantCount = 0
-    for(i in 0 until length){
-        if(vowelCount >= 5 || constantCount >= 3){
+    var count = 0
+    for (i in 0 until length) {
+        if (vowelCount > 5 || constantCount > 3) {
             return false
         }
 
-        if(this[i].isVowel()){
-            vowelCount++
-            constantCount = 0
-        }
-
-        if(this[i].isConstant()){
-            constantCount++
-            vowelCount = 0
-        }
-
-        if(!this[i].isVowel() && !this[i].isConstant()){
-            constantCount = 0
-            vowelCount = 0
+        when {
+            this[i].isVowel() -> {
+                vowelCount++
+                constantCount = 0
+                count = 0
+            }
+            this[i].isConstant() -> {
+                constantCount++
+                vowelCount = 0
+                count = 0
+            }
+            else -> {
+                count++
+                constantCount = if (constantCount != 0) ++constantCount else count
+                vowelCount = if (vowelCount != 0) ++vowelCount else count
+            }
         }
     }
     return true
 }
 
-val vowelArray = arrayOf( 'a', 'e', 'i', 'o', 'u' )
+val vowelArray = arrayOf('a', 'e', 'i', 'o', 'u')
 
 fun Char.isVowel(): Boolean {
     vowelArray.forEach {
-        if(this == it){
+        if (this == it) {
             return true
         }
     }
@@ -152,9 +156,10 @@ fun Char.isConstant(): Boolean {
         return false
     }
     vowelArray.forEach {
-        if(this == it){
+        if (this == it) {
             return false
         }
     }
     return true
 }
+
