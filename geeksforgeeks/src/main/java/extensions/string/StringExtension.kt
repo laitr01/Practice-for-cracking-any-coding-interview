@@ -163,3 +163,44 @@ fun Char.isConstant(): Boolean {
     return true
 }
 
+val digits = arrayOf('0', '1', '2', '3', '4', '5', '6', '7', '8', '9')
+
+fun String.extractMaximum(): Int {
+    var max = -1
+    var number = -1
+    val strTemp = StringBuilder()
+
+    for (i in 0 until length) {
+        if (digits.contains(this[i])) {
+            strTemp.append(this[i])
+            number = strTemp.toString().toInt()
+            if (number > max) {
+                max = number
+            }
+        } else {
+            strTemp.setLength(0)
+        }
+    }
+    return max
+}
+
+fun String.reverse(): String {
+
+    var strResult = ""
+    var strTemp = ""
+
+    for (i in 0 until length) {
+        if (this[i] != '.') {
+            strTemp += this[i]
+        } else if (this[i] == '.') {
+            strResult = ".$strTemp$strResult"
+            strTemp = ""
+        }
+
+        if (i == length - 1) {
+            strResult = "$strTemp$strResult"
+            strTemp = ""
+        }
+    }
+    return strResult
+}
