@@ -204,3 +204,22 @@ fun String.reverse(): String {
     }
     return strResult
 }
+
+fun String.includes(text: String): Int {
+
+    val textLen = text.length
+    if (textLen > length) return -1
+    var markIndex = 0
+
+    for (i in 0 until length) {
+        markIndex = i
+        if (length - markIndex < textLen) {
+            return -1
+        } else {
+            if (text == substring(i, i + textLen)) {
+                return markIndex
+            }
+        }
+    }
+    return markIndex
+}

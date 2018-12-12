@@ -3,12 +3,15 @@ package string
 import extensions.string.includes
 import java.util.*
 
-class ImplementStrstr {
+class CheckForSubsequence {
     /**
-     * https://practice.geeksforgeeks.org/problems/implement-strstr/1
-     * Your task is to implement the function strstr. The function takes two strings as arguments (s,x) and  locates the occurrence of the string x in the string s.
-     * The function returns and integer denoting the first occurrence of the string x in s.
-     */
+        Given two strings A and B, find if A is a subsequence of B.
+        Input:
+        The first line of input contains an integer T denoting the no of test cases.
+        Then T test cases follow. Each test case contains two space separated strings A and B.
+        Output:
+        For each test case, in a new line, print 1 if a is sub-sequences of b else print 0.
+    */
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
@@ -22,6 +25,5 @@ class ImplementStrstr {
                 testCaseNumber--
             }
         }
-
     }
 }
