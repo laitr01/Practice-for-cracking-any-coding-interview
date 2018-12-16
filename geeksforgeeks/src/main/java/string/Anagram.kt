@@ -21,6 +21,7 @@ class Anagram {
                 }else{
                     println("No")
                 }
+                testCaseNumber--
             }
         }
     }

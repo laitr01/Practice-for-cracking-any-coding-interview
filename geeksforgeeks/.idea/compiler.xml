@@ -9,5 +9,8 @@
         <module name="geeksforgeeks" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="geeksforgeeks" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
