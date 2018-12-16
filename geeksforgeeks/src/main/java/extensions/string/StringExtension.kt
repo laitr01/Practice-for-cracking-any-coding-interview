@@ -249,50 +249,98 @@ fun String.isRotateBy(text: String): Boolean {
 // Function to check that string is k-anagram or not
 fun String.isKAnagram(text: String, k: Int): Boolean {
 
-    if(length != text.length ){
+    if (length != text.length) {
         return false
     }
 
-    val charArray1 = Array(256){0}
-    val charArray2 = Array(256){0}
+    val charArray1 = Array(256) { 0 }
+    val charArray2 = Array(256) { 0 }
     var count = 0
 
-    for (i in 0 until length){
+    for (i in 0 until length) {
         charArray1[this[i] - 'a']++
     }
 
-    for (i in 0 until length){
+    for (i in 0 until length) {
         charArray2[text[i] - 'a']++
     }
 
-    for (i in 0 until 256){
-        if(charArray1[i] > charArray2[i]){
+    for (i in 0 until 256) {
+        if (charArray1[i] > charArray2[i]) {
             count += Math.abs(charArray1[i] - charArray2[i])
         }
     }
 
     return count <= k
 }
+
 //const int MAX_CHAR = 26;
 fun String.findUncommonCharactersWith(textTwo: String): String {
-    val charStored1 = Array(256){0}
+    val charStored1 = Array(256) { 0 }
     for (i in 0 until length) {
         charStored1[this[i].toInt()]++
     }
 
-    val charStored2 = Array(256){0}
+    val charStored2 = Array(256) { 0 }
     for (i in 0 until textTwo.length) {
         charStored2[textTwo[i].toInt()]++
     }
     val resultBuilder = StringBuilder()
 
-    for (i in 0 until 256){
-        if(charStored1[i] > 0 && charStored2[i] == 0){
+    for (i in 0 until 256) {
+        if (charStored1[i] > 0 && charStored2[i] == 0) {
             resultBuilder.append(i.toChar())
         }
-        if(charStored2[i] > 0 && charStored1[i] == 0){
+        if (charStored2[i] > 0 && charStored1[i] == 0) {
             resultBuilder.append(i.toChar())
         }
     }
     return resultBuilder.toString()
+}
+
+fun String.needRemoveToAnagram(text: String): Int {
+    val charCount1 = Array(26) { 0 }
+    val charCount2 = Array(26) { 0 }
+
+    for (i in 0 until length) {
+        charCount1[this[i] - 'a']++
+    }
+
+    for (i in 0 until text.length) {
+        charCount2[text[i] - 'a']++
+    }
+
+    var result = 0
+    for (i in 0 until 26) {
+        result += Math.abs(charCount1[i] - charCount2[i])
+    }
+
+    return result
+}
+
+fun String.findFirstRepeatedCharacter(): String {
+
+    val charSet = HashSet<Char>()
+    for (i in 0 until length) {
+        if (charSet.contains(this[i])) {
+            return this[i].toString()
+        } else {
+            charSet.add(this[i])
+        }
+    }
+    return ""
+}
+
+fun String.nonRepeatingCharacter(): String {
+    val charCount = Array(26) { 0 }
+    for (i in 0 until length) {
+        charCount[this[i] - 'a']++
+    }
+
+    for (i in 0 until length) {
+        if (charCount[this[i] - 'a'] == 1) {
+            return this[i].toString()
+        }
+    }
+    return ""
 }

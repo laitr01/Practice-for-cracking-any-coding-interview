@@ -5,44 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b851ea8b-0a6a-4f8e-a672-f7f1c51103e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/Counting.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/CheckRotations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/KAnagrams.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/UncommonCharacters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/AnagramOfString.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/FindFirstRepeatedCharacter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/NonRepeatingCharacter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/CheckForSubsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/CheckForSubsequence.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/geeksforgeeks.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/geeksforgeeks.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/extensions/string/StringExtensionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/extensions/string/StringExtensionKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintThePattern$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintThePattern$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintThePattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintThePattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTable$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTable$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTableImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTableImplement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/Anagram$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/Anagram$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/Anagram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/AnagramPalindrome$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/AnagramPalindrome$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/AnagramPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/AnagramPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/CheckForPalindrome$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/CheckForPalindrome$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/CheckForPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/CheckForPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/ExtractMaximum$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/ExtractMaximum$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/ExtractMaximum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/ExtractMaximum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/GoodOrBadString$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/GoodOrBadString$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/GoodOrBadString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/GoodOrBadString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/ImplementStrstr$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/ImplementStrstr$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/ImplementStrstr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/ImplementStrstr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/MergeTwoStrings$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/MergeTwoStrings$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/MergeTwoStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/MergeTwoStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/ReverseWords$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/ReverseWords$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/ReverseWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/ReverseWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/SaveIronman$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/SaveIronman$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/SaveIronman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/SaveIronman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/SortTheString$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/SortTheString$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/SortTheString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/SortTheString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/URLifyString$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/URLifyString$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/URLifyString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/URLifyString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/UpperCaseConversion$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/UpperCaseConversion$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/UpperCaseConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/UpperCaseConversion.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,23 +68,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="1" />
-          <entry key="kt" value="11" />
+          <entry key="kt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="1" />
-          <entry key="Kotlin" value="11" />
+          <entry key="Kotlin" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="1900" />
+          <entry key="kt" value="2590" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="1900" />
+          <entry key="Kotlin" value="2590" />
         </counts>
       </usages-collector>
     </session>
@@ -126,6 +94,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/string/Anagram.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/string/CheckForSubsequence.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="277" column="30" lean-forward="true" selection-start-line="277" selection-start-column="30" selection-end-line="277" selection-end-column="30" />
+            <state relative-caret-position="399">
+              <caret line="341" column="26" selection-start-line="341" selection-start-column="26" selection-end-line="341" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -147,10 +124,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/string/UncommonCharacters.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="442">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="24" />
               <folding>
                 <element signature="e#16#122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/string/KAnagrams.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/string/CheckRotations.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/string/AnagramOfString.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="e#16#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/string/NonRepeatingCharacter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="e#16#81#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,6 +200,9 @@
         <option value="$PROJECT_DIR$/src/main/java/string/Anagram.kt" />
         <option value="$PROJECT_DIR$/src/main/java/string/KAnagrams.kt" />
         <option value="$PROJECT_DIR$/src/main/java/string/UncommonCharacters.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/string/AnagramOfString.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/string/FindFirstRepeatedCharacter.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/string/NonRepeatingCharacter.kt" />
         <option value="$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt" />
       </list>
     </option>
@@ -279,7 +301,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544938686756" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544982272893" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -295,41 +317,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.string.UncommonCharacters">
-    <configuration name="Counting" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.string.NonRepeatingCharacter">
+    <configuration name="string.AnagramOfString" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="geeksforgeeks" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Counting" />
+      <option name="MAIN_CLASS_NAME" value="string.AnagramOfString" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.CheckForSubsequence" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="string.FindFirstRepeatedCharacter" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="geeksforgeeks" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="string.CheckForSubsequence" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="string.CheckRotations" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="geeksforgeeks" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="string.CheckRotations" />
+      <option name="MAIN_CLASS_NAME" value="string.FindFirstRepeatedCharacter" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -343,6 +352,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="string.KAnagrams" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string.NonRepeatingCharacter" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="geeksforgeeks" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="string.NonRepeatingCharacter" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -362,19 +384,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.Counting" />
-      <item itemvalue="Kotlin.string.CheckForSubsequence" />
-      <item itemvalue="Kotlin.string.CheckRotations" />
       <item itemvalue="Kotlin.string.KAnagrams" />
       <item itemvalue="Kotlin.string.UncommonCharacters" />
+      <item itemvalue="Kotlin.string.AnagramOfString" />
+      <item itemvalue="Kotlin.string.FindFirstRepeatedCharacter" />
+      <item itemvalue="Kotlin.string.NonRepeatingCharacter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.string.NonRepeatingCharacter" />
+        <item itemvalue="Kotlin.string.FindFirstRepeatedCharacter" />
+        <item itemvalue="Kotlin.string.AnagramOfString" />
         <item itemvalue="Kotlin.string.UncommonCharacters" />
         <item itemvalue="Kotlin.string.KAnagrams" />
-        <item itemvalue="Kotlin.string.CheckRotations" />
-        <item itemvalue="Kotlin.string.CheckForSubsequence" />
-        <item itemvalue="Kotlin.Counting" />
       </list>
     </recent_temporary>
   </component>
@@ -404,34 +426,6 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19349681" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38678223" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32719395" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-    </layout>
-    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -458,7 +452,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -555,30 +549,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/string/CheckRotations.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/ReverseWords.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="25" selection-start-line="13" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#16#109#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/string/Anagram.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/UncommonCharacters.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="442">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="e#16#122#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/string/KAnagrams.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#16#106#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/CheckRotations.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/Anagram.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -589,27 +594,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/string/ReverseWords.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/FindFirstRepeatedCharacter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="510">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="e#16#86#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/string/UncommonCharacters.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/NonRepeatingCharacter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="331">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
-            <element signature="e#16#122#0" expanded="true" />
+            <element signature="e#16#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/AnagramOfString.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="e#16#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="277" column="30" lean-forward="true" selection-start-line="277" selection-start-column="30" selection-end-line="277" selection-end-column="30" />
+        <state relative-caret-position="399">
+          <caret line="341" column="26" selection-start-line="341" selection-start-column="26" selection-end-line="341" selection-end-column="26" />
         </state>
       </provider>
     </entry>
