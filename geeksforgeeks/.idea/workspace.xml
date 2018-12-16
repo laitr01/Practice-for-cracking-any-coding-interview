@@ -1,13 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt" line="1" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b851ea8b-0a6a-4f8e-a672-f7f1c51103e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/CheckForSubsequence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/Counting.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/CheckRotations.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/KAnagrams.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/UncommonCharacters.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/ImplementStrstr.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/ImplementStrstr.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/string/CheckForSubsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/CheckForSubsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/geeksforgeeks.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/geeksforgeeks.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/extensions/string/StringExtensionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/extensions/string/StringExtensionKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintThePattern$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintThePattern$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintThePattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintThePattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTable$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTable$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTableImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTableImplement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/Anagram$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/Anagram$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/Anagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/AnagramPalindrome$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/AnagramPalindrome$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/AnagramPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/AnagramPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/CheckForPalindrome$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/CheckForPalindrome$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/CheckForPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/CheckForPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/ExtractMaximum$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/ExtractMaximum$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/ExtractMaximum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/ExtractMaximum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/GoodOrBadString$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/GoodOrBadString$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/GoodOrBadString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/GoodOrBadString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/ImplementStrstr$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/ImplementStrstr$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/ImplementStrstr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/ImplementStrstr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/MergeTwoStrings$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/MergeTwoStrings$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/MergeTwoStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/MergeTwoStrings.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/string/ReverseWords$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/ReverseWords$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/ReverseWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/ReverseWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/SaveIronman$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/SaveIronman$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/SaveIronman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/SaveIronman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/SortTheString$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/SortTheString$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/SortTheString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/SortTheString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/URLifyString$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/URLifyString$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/URLifyString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/URLifyString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/UpperCaseConversion$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/UpperCaseConversion$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/UpperCaseConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/UpperCaseConversion.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,30 +88,35 @@
     <session id="1043551284">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="kt" value="6" />
+          <entry key="java" value="1" />
+          <entry key="kt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Kotlin" value="6" />
+          <entry key="JAVA" value="1" />
+          <entry key="Kotlin" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="940" />
+          <entry key="kt" value="1900" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="940" />
+          <entry key="Kotlin" value="1900" />
         </counts>
       </usages-collector>
     </session>
@@ -87,31 +127,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/string/Anagram.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/string/CheckForSubsequence.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="442">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="28" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/string/CheckForSubsequence.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="1" selection-start-line="28" selection-end-line="28" selection-end-column="1" />
-              <folding>
-                <element signature="e#16#68#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="178">
+              <caret line="277" column="30" lean-forward="true" selection-start-line="277" selection-start-column="30" selection-end-line="277" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/string/UncommonCharacters.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="219" column="28" lean-forward="true" selection-start-line="219" selection-start-column="28" selection-end-line="219" selection-end-column="28" />
+            <state relative-caret-position="612">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#16#122#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,10 +174,14 @@
         <option value="$PROJECT_DIR$/src/main/java/string/URLifyString.kt" />
         <option value="$PROJECT_DIR$/src/main/java/string/ExtractMaximum.kt" />
         <option value="$PROJECT_DIR$/src/main/java/string/ReverseWords.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/string/Anagram.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt" />
         <option value="$PROJECT_DIR$/src/main/java/string/ImplementStrstr.kt" />
         <option value="$PROJECT_DIR$/src/main/java/string/CheckForSubsequence.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/string/CheckRotations.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/string/K-anagrams.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/string/Anagram.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/string/KAnagrams.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/string/UncommonCharacters.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt" />
       </list>
     </option>
   </component>
@@ -148,9 +192,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-192" />
+    <option name="y" value="-18" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -160,8 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,6 +228,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geeksforgeeks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geeksforgeeks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="geeksforgeeks" type="b2602c69:ProjectViewProjectNode" />
@@ -224,10 +274,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544636114533" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544938686756" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -243,86 +295,86 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.string.ImplementStrstr">
-    <configuration name="string.ExtractMaximum" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.string.UncommonCharacters">
+    <configuration name="Counting" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="geeksforgeeks" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="string.ExtractMaximum" />
+      <option name="MAIN_CLASS_NAME" value="Counting" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.GoodOrBadString" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="string.CheckForSubsequence" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="geeksforgeeks" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="string.GoodOrBadString" />
+      <option name="MAIN_CLASS_NAME" value="string.CheckForSubsequence" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.ImplementStrstr" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="string.CheckRotations" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="geeksforgeeks" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="string.ImplementStrstr" />
+      <option name="MAIN_CLASS_NAME" value="string.CheckRotations" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.ReverseWords" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="string.KAnagrams" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="geeksforgeeks" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="string.ReverseWords" />
+      <option name="MAIN_CLASS_NAME" value="string.KAnagrams" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.URLifyString" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="string.UncommonCharacters" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="geeksforgeeks" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="string.URLifyString" />
+      <option name="MAIN_CLASS_NAME" value="string.UncommonCharacters" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.string.GoodOrBadString" />
-      <item itemvalue="Kotlin.string.URLifyString" />
-      <item itemvalue="Kotlin.string.ExtractMaximum" />
-      <item itemvalue="Kotlin.string.ReverseWords" />
-      <item itemvalue="Kotlin.string.ImplementStrstr" />
+      <item itemvalue="Kotlin.Counting" />
+      <item itemvalue="Kotlin.string.CheckForSubsequence" />
+      <item itemvalue="Kotlin.string.CheckRotations" />
+      <item itemvalue="Kotlin.string.KAnagrams" />
+      <item itemvalue="Kotlin.string.UncommonCharacters" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.string.ImplementStrstr" />
-        <item itemvalue="Kotlin.string.ReverseWords" />
-        <item itemvalue="Kotlin.string.ExtractMaximum" />
-        <item itemvalue="Kotlin.string.URLifyString" />
-        <item itemvalue="Kotlin.string.GoodOrBadString" />
+        <item itemvalue="Kotlin.string.UncommonCharacters" />
+        <item itemvalue="Kotlin.string.KAnagrams" />
+        <item itemvalue="Kotlin.string.CheckRotations" />
+        <item itemvalue="Kotlin.string.CheckForSubsequence" />
+        <item itemvalue="Kotlin.Counting" />
       </list>
     </recent_temporary>
   </component>
@@ -349,10 +401,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19349681" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -361,7 +413,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38678223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -380,7 +432,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -482,44 +534,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/string/ReverseWords.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="219" column="28" lean-forward="true" selection-start-line="219" selection-start-column="28" selection-end-line="219" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/string/ImplementStrstr.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="20" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="1240" column="35" selection-start-line="1240" selection-start-column="35" selection-end-line="1240" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Counting.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/CheckRotations.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" selection-start-line="13" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="e#16#68#0" expanded="true" />
+            <element signature="e#16#109#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/string/Anagram.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        <state relative-caret-position="306">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/KAnagrams.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#16#106#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/string/CheckForSubsequence.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="1" selection-start-line="28" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="442">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/ReverseWords.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/UncommonCharacters.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
-            <element signature="e#16#68#0" expanded="true" />
+            <element signature="e#16#122#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="277" column="30" lean-forward="true" selection-start-line="277" selection-start-column="30" selection-end-line="277" selection-end-column="30" />
         </state>
       </provider>
     </entry>

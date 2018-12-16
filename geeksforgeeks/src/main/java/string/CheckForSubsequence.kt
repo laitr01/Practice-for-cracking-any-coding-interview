@@ -1,6 +1,7 @@
 package string
 
 import extensions.string.includes
+import extensions.string.isSubsequence
 import java.util.*
 
 class CheckForSubsequence {
@@ -21,7 +22,7 @@ class CheckForSubsequence {
             while (testCaseNumber > 0) {
                 val textOne = readLine()!!
                 val textTwo = readLine()!!
-                println(textOne.includes(textTwo))
+                println(textOne.isSubsequence(textTwo))
                 testCaseNumber--
             }
         }

@@ -223,3 +223,76 @@ fun String.includes(text: String): Int {
     }
     return markIndex
 }
+
+fun String.isSubsequence(text: String): Int {
+    var index1 = length - 1
+    var index2 = text.length - 1
+
+
+    while (index1 > index2) {
+        if (index2 == 0) return 1
+        if (index1 == 0) return 0
+        if (this[index1] == text[index2]) {
+            index2--
+        }
+        index1--
+    }
+
+    return 0
+}
+
+fun String.isRotateBy(text: String): Boolean {
+    val doubleString = "$this$this"
+    return doubleString.contains(text)
+}
+
+// Function to check that string is k-anagram or not
+fun String.isKAnagram(text: String, k: Int): Boolean {
+
+    if(length != text.length ){
+        return false
+    }
+
+    val charArray1 = Array(256){0}
+    val charArray2 = Array(256){0}
+    var count = 0
+
+    for (i in 0 until length){
+        charArray1[this[i] - 'a']++
+    }
+
+    for (i in 0 until length){
+        charArray2[text[i] - 'a']++
+    }
+
+    for (i in 0 until 256){
+        if(charArray1[i] > charArray2[i]){
+            count += Math.abs(charArray1[i] - charArray2[i])
+        }
+    }
+
+    return count <= k
+}
+//const int MAX_CHAR = 26;
+fun String.findUncommonCharactersWith(textTwo: String): String {
+    val charStored1 = Array(256){0}
+    for (i in 0 until length) {
+        charStored1[this[i].toInt()]++
+    }
+
+    val charStored2 = Array(256){0}
+    for (i in 0 until textTwo.length) {
+        charStored2[textTwo[i].toInt()]++
+    }
+    val resultBuilder = StringBuilder()
+
+    for (i in 0 until 256){
+        if(charStored1[i] > 0 && charStored2[i] == 0){
+            resultBuilder.append(i.toChar())
+        }
+        if(charStored2[i] > 0 && charStored1[i] == 0){
+            resultBuilder.append(i.toChar())
+        }
+    }
+    return resultBuilder.toString()
+}
