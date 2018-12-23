@@ -344,3 +344,54 @@ fun String.nonRepeatingCharacter(): String {
     }
     return ""
 }
+
+fun String.longestDistinctCharacters(): Int {
+    var currentLength = 1
+    var maxLength = 1
+    var prevIndex: Int
+    val visited = Array(256) { -1 }
+
+    visited[this[0].toInt()] = 0
+
+    for (i in 1 until length) {
+        prevIndex = visited[this[i].toInt()]
+
+        if (prevIndex == -1 || i - currentLength > prevIndex) {
+            currentLength++
+        } else {
+            if (currentLength > maxLength) {
+                maxLength = currentLength
+            }
+            currentLength = i - prevIndex
+        }
+        visited[this[i].toInt()] = i
+    }
+
+    // Compare the length of last NRCS with max_len and
+    // update max_len if needed
+    if (currentLength > maxLength)
+        maxLength = currentLength;
+
+    return maxLength;
+}
+
+
+fun String.longestPalindromicSubstring(): String {
+    val table = Array(length) {Array(length) {false} }
+    var maxLength = 1
+    for(i in 0 until length){
+        table[i][i] = true
+    }
+    var start = 0
+    for(i in 0 until length - 1){
+         if(this[i] == this[i+1]){
+             table[i][i+1] = true
+             start = i
+             maxLength = 2
+         }
+    }
+
+    for (k in 3 .. length){
+
+    }
+}
