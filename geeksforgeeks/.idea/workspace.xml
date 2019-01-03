@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b851ea8b-0a6a-4f8e-a672-f7f1c51103e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/LongestDistinctCharacters.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/LongestPalindromicSubstring.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/FindkthCharacter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/SmallestStringContainingAllTheCharactersOfAnother.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/extensions/string/StringExtensionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/extensions/string/StringExtensionKt.class" afterDir="false" />
@@ -59,33 +59,36 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
-          <entry key="kt" value="21" />
+          <entry key="java" value="2" />
+          <entry key="kt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
-          <entry key="Kotlin" value="21" />
+          <entry key="JAVA" value="2" />
+          <entry key="Kotlin" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="3306" />
+          <entry key="kt" value="4680" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="3306" />
+          <entry key="Kotlin" value="4680" />
         </counts>
       </usages-collector>
     </session>
@@ -107,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/string/NonRepeatingCharacter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="39" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+            <state relative-caret-position="399">
+              <caret line="43" column="25" selection-start-line="34" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="e#16#81#0" expanded="true" />
               </folding>
@@ -119,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/string/LongestDistinctCharacters.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="314">
+              <caret line="34" column="25" selection-start-line="27" selection-start-column="3" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="e#16#85#0" expanded="true" />
               </folding>
@@ -131,8 +134,41 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="804">
-              <caret line="393" column="4" lean-forward="true" selection-start-line="393" selection-start-column="4" selection-end-line="393" selection-end-column="4" />
+            <state relative-caret-position="32">
+              <caret line="460" selection-start-line="460" selection-end-line="460" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/string/FindkthCharacter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding>
+                <element signature="e#16#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/string/SmallestStringContainingAllTheCharactersOfAnother.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="7" />
+              <folding>
+                <element signature="e#16#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/string/SortTheString.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -140,8 +176,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/string/LongestPalindromicSubstring.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+            <state relative-caret-position="382">
+              <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
               <folding>
                 <element signature="e#16#87#0" expanded="true" />
               </folding>
@@ -179,7 +215,11 @@
         <option value="$PROJECT_DIR$/src/main/java/string/AnagramOfString.kt" />
         <option value="$PROJECT_DIR$/src/main/java/string/LongestDistinctCharacters.kt" />
         <option value="$PROJECT_DIR$/src/main/java/string/LongestPalindromicSubstring.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/string/Findk-thCharacter.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/string/FindkthCharacter.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/string/SmallestString ContainingAllTheCharactersOfAnother.kt" />
         <option value="$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/string/SmallestStringContainingAllTheCharactersOfAnother.kt" />
       </list>
     </option>
   </component>
@@ -191,10 +231,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-192" />
-    <option name="y" value="-18" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1" />
+    <option name="width" value="1678" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,6 +241,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,14 +313,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545587312990" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546539850773" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Practice-for-cracking-any-coding-interview\geeksforgeeks\src\main\java\string" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -293,28 +337,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.string.LongestDistinctCharacters">
-    <configuration name="string.AnagramOfString" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.string.SmallestStringContainingAllTheCharactersOfAnother">
+    <configuration name="string.FindkthCharacter" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="geeksforgeeks" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="string.AnagramOfString" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="string.FindFirstRepeatedCharacter" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="geeksforgeeks" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="string.FindFirstRepeatedCharacter" />
+      <option name="MAIN_CLASS_NAME" value="string.FindkthCharacter" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -333,6 +364,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="string.LongestPalindromicSubstring" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="geeksforgeeks" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="string.LongestPalindromicSubstring" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="string.NonRepeatingCharacter" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="geeksforgeeks" />
       <option name="VM_PARAMETERS" />
@@ -346,33 +390,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.UncommonCharacters" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="string.SmallestStringContainingAllTheCharactersOfAnother" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="geeksforgeeks" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="string.UncommonCharacters" />
+      <option name="MAIN_CLASS_NAME" value="string.SmallestStringContainingAllTheCharactersOfAnother" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.string.UncommonCharacters" />
-      <item itemvalue="Kotlin.string.AnagramOfString" />
-      <item itemvalue="Kotlin.string.FindFirstRepeatedCharacter" />
       <item itemvalue="Kotlin.string.NonRepeatingCharacter" />
       <item itemvalue="Kotlin.string.LongestDistinctCharacters" />
+      <item itemvalue="Kotlin.string.LongestPalindromicSubstring" />
+      <item itemvalue="Kotlin.string.FindkthCharacter" />
+      <item itemvalue="Kotlin.string.SmallestStringContainingAllTheCharactersOfAnother" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.string.SmallestStringContainingAllTheCharactersOfAnother" />
+        <item itemvalue="Kotlin.string.FindkthCharacter" />
+        <item itemvalue="Kotlin.string.LongestPalindromicSubstring" />
         <item itemvalue="Kotlin.string.LongestDistinctCharacters" />
         <item itemvalue="Kotlin.string.NonRepeatingCharacter" />
-        <item itemvalue="Kotlin.string.FindFirstRepeatedCharacter" />
-        <item itemvalue="Kotlin.string.AnagramOfString" />
-        <item itemvalue="Kotlin.string.UncommonCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +446,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -434,10 +478,28 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt</url>
+          <line>435</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt</url>
+          <line>431</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
         <watch expression="substring(i, textLen+i)" language="kotlin" />
         <watch expression="this[i]" language="kotlin" />
+        <watch expression="hashString[this[start] - 'a']" language="kotlin" />
+        <watch expression="hashPattern[this[start] - 'a']" language="kotlin" />
       </configuration>
     </watches-manager>
   </component>
@@ -549,9 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#16#86#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,9 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="26" column="19" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="e#16#122#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,9 +639,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding>
-            <element signature="e#16#79#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa10036.24655/ReminderNotificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="32" column="51" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -596,40 +656,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/string/NonRepeatingCharacter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="39" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="e#16#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/string/LongestDistinctCharacters.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#16#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/string/LongestPalindromicSubstring.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+        <state relative-caret-position="382">
+          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
           <folding>
             <element signature="e#16#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/Findk-thCharacter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/NonRepeatingCharacter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="43" column="25" selection-start-line="34" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="e#16#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/SortTheString.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/FindkthCharacter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="e#16#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/LongestDistinctCharacters.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="34" column="25" selection-start-line="27" selection-start-column="3" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#16#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/SmallestStringContainingAllTheCharactersOfAnother.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="e#16#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="804">
-          <caret line="393" column="4" lean-forward="true" selection-start-line="393" selection-start-column="4" selection-end-line="393" selection-end-column="4" />
+        <state relative-caret-position="32">
+          <caret line="460" selection-start-line="460" selection-end-line="460" />
         </state>
       </provider>
     </entry>

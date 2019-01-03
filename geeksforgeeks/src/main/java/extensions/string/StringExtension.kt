@@ -377,21 +377,113 @@ fun String.longestDistinctCharacters(): Int {
 
 
 fun String.longestPalindromicSubstring(): String {
-    val table = Array(length) {Array(length) {false} }
+    val table = Array(length) { Array(length) { false } }
     var maxLength = 1
-    for(i in 0 until length){
+    for (i in 0 until length) {
         table[i][i] = true
     }
     var start = 0
-    for(i in 0 until length - 1){
-         if(this[i] == this[i+1]){
-             table[i][i+1] = true
-             start = i
-             maxLength = 2
-         }
+    for (i in 0 until length - 1) {
+        if (this[i] == this[i + 1]) {
+            table[i][i + 1] = true
+            start = i
+            maxLength = 2
+        }
     }
 
-    for (k in 3 .. length){
+    for (k in 3..length) {
 
+        for (i in 0 until length - k + 1) {
+            // Get the ending index of substring from
+            // starting index i and length k
+            var j = i + k - 1
+            // checking for sub-string from ith index to
+            // jth index iff str[i+1] to str[j-1] is a
+            // palindrome
+            if (table[i + 1][j - 1] && this[i] == this[j]) {
+                table[i][j] = true
+                if (k > maxLength) {
+                    maxLength = k
+                    start = i
+                }
+            }
+        }
     }
+
+    return substring(start, start + maxLength)
+}
+//https://algs4.cs.princeton.edu/53substring/Manacher.java.html
+//fun String.longestPalindromicLinearTime(): String {
+//
+//}
+
+fun Number.binaryConversion(): String {
+    val builder = StringBuilder()
+    var temp = this.toInt()
+    while (temp != 0) {
+        builder.append(temp % 2)
+        temp /= 2
+    }
+    return builder.toString().reverses()
+}
+
+fun String.reverses(): String {
+    val array = toCharArray()
+    for (i in 0 until length / 2) {
+        array[i] = this[length - i - 1]
+        array[length - i - 1] = this[i]
+    }
+    return String(array)
+}
+
+fun String.smallestStringContainingAllTheCharactersOf(text: String): String {
+    val len2 = text.length
+    if (length < len2) {
+        return ""
+    }
+
+    val hashPattern = CharArray(26)
+    val hashString = CharArray(26)
+
+    for (i in 0 until len2) {
+        hashPattern[text[i] - 'a']++
+    }
+
+    var start = 0
+    var start_index = -1
+    var min_len = Integer.MAX_VALUE
+
+    // start traversing the string
+    var count = 0 // count of characters
+
+    for (j in 0 until length) {
+        // count occurrence of characters of string
+        hashString[this[j] - 'a']++
+
+        if (hashPattern[this[j] - 'a'].toInt() != 0 &&
+                hashString[this[j] - 'a'] <= hashPattern[this[j] - 'a']) {
+            count++
+        }
+        if (count == len2) {
+            // Try to minimize the window i.e., check if
+            // any character is occurring more no. of times
+            // than its occurrence in pattern, if yes
+            // then remove it from starting and also remove
+            // the useless characters.
+            while (hashString[this[start] - 'a'] > hashPattern[this[start] - 'a']
+                    || hashPattern[this[start] - 'a'].toInt() == 0) {
+                if (hashString[this[start] - 'a'] > hashPattern[this[start] - 'a']) {
+                    hashString[this[start] - 'a']--
+                }
+                start++
+            }
+            // update window size
+            val len_window = j - start + 1
+            if (min_len > len_window) {
+                min_len = len_window
+                start_index = start
+            }
+        }
+    }
+    return substring(start_index, start_index + min_len)
 }
