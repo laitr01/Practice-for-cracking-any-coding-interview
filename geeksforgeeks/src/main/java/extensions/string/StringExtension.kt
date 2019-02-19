@@ -204,3 +204,8 @@ fun String.reverse(): String {
     }
     return strResult
 }
+
+//fun String.including(text: String): Boolean {
+//    val textLen = text.length
+//
+//}

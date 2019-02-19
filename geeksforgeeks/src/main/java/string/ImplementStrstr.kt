@@ -1,5 +1,6 @@
 package string
 
+import extensions.string.including
 import java.util.*
 
 class ImplementStrstr {
@@ -11,7 +12,14 @@ class ImplementStrstr {
             var testCaseNumber = scanner.nextInt()
 
             while (testCaseNumber > 0) {
-                val textOne = scanner.next()
+                val textOne = readLine()!!
+                val textTwo = readLine()!!
+
+                if (textOne.including(textTwo)) {
+                    println("Yes")
+                } else {
+                    println("No")
+                }
                 testCaseNumber--
             }
         }

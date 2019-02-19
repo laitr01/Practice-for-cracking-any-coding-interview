@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b851ea8b-0a6a-4f8e-a672-f7f1c51103e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/ExtractMaximum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/ReverseWords.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geeksforgeeks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/geeksforgeeks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/Anagram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/Anagram.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/geeksforgeeks.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/geeksforgeeks.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/extensions/string/StringExtensionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/extensions/string/StringExtensionKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintThePattern$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintThePattern$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintThePattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintThePattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTable$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTable$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTableImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mathematical/PrintTheTableImplement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/Anagram$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/Anagram$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/Anagram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/AnagramPalindrome$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/AnagramPalindrome$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/AnagramPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/AnagramPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/CheckForPalindrome$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/CheckForPalindrome$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/CheckForPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/CheckForPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/GoodOrBadString$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/GoodOrBadString$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/GoodOrBadString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/GoodOrBadString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/MergeTwoStrings$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/MergeTwoStrings$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/MergeTwoStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/MergeTwoStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/SaveIronman$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/SaveIronman$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/SaveIronman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/SaveIronman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/SortTheString$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/SortTheString$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/SortTheString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/SortTheString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/URLifyString$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/URLifyString$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/URLifyString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/URLifyString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/UpperCaseConversion$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/UpperCaseConversion$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/UpperCaseConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/UpperCaseConversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/string/ImplementStrstr.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/ImplementStrstr.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,32 +18,34 @@
     <session id="-156388450">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="kt" value="8" />
+          <entry key="kt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Kotlin" value="8" />
+          <entry key="Kotlin" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="322" />
+          <entry key="kt" value="473" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="322" />
+          <entry key="Kotlin" value="473" />
         </counts>
       </usages-collector>
     </session>
@@ -114,20 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/string/Anagram.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="27" selection-start-line="6" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/string/ReverseWords.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-              <folding>
-                <element signature="e#16#67#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -153,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="194" column="36" lean-forward="true" selection-start-line="194" selection-start-column="36" selection-end-line="194" selection-end-column="36" />
+            <state relative-caret-position="393">
+              <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
             </state>
           </provider>
         </entry>
@@ -162,10 +123,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/string/URLifyString.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="36" column="1" selection-start-line="36" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="e#16#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mathematical/PrintThePattern.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/string/ImplementStrstr.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <folding>
+                <element signature="e#16#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -190,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/main/java/string/ExtractMaximum.kt" />
         <option value="$PROJECT_DIR$/src/main/java/string/Anagram.kt" />
         <option value="$PROJECT_DIR$/src/main/java/string/ReverseWords.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/string/ImplementStrstr.kt" />
         <option value="$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt" />
       </list>
     </option>
@@ -201,11 +184,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -246,15 +229,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geeksforgeeks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geeksforgeeks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
               <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -273,6 +247,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="geeksforgeeks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geeksforgeeks" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -280,7 +259,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544555897280" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545721244659" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -364,6 +343,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",KOTLIN_SHOW_NON_PUBLIC" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -377,7 +359,7 @@
     </task>
     <servers />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -387,24 +369,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.18710022" />
+      <window_info id="Structure" order="1" sideWeight="0.502455" side_tool="true" visible="true" weight="0.18710022" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5021978" side_tool="true" weight="0.18710022" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38678223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3281412" />
@@ -483,6 +464,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/ExtractMaximum.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#16#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/ReverseWords.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#16#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/Anagram.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/string/UpperCaseConversion.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -499,45 +507,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/string/URLifyString.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="36" column="1" selection-start-line="36" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="221">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="e#16#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/string/ExtractMaximum.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mathematical/PrintThePattern.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#16#74#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="476">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/string/Anagram.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/ImplementStrstr.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="27" selection-start-line="6" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/string/ReverseWords.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="272">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
-            <element signature="e#16#67#0" expanded="true" />
+            <element signature="e#16#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/extensions/string/StringExtension.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="194" column="36" lean-forward="true" selection-start-line="194" selection-start-column="36" selection-end-line="194" selection-end-column="36" />
+        <state relative-caret-position="393">
+          <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
         </state>
       </provider>
     </entry>
