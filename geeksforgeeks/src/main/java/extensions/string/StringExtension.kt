@@ -205,7 +205,285 @@ fun String.reverse(): String {
     return strResult
 }
 
-//fun String.including(text: String): Boolean {
-//    val textLen = text.length
+fun String.includes(text: String): Int {
+
+    val textLen = text.length
+    if (textLen > length) return -1
+    var markIndex = 0
+
+    for (i in 0 until length) {
+        markIndex = i
+        if (length - markIndex < textLen) {
+            return -1
+        } else {
+            if (text == substring(i, i + textLen)) {
+                return markIndex
+            }
+        }
+    }
+    return markIndex
+}
+
+fun String.isSubsequence(text: String): Int {
+    var index1 = length - 1
+    var index2 = text.length - 1
+
+
+    while (index1 > index2) {
+        if (index2 == 0) return 1
+        if (index1 == 0) return 0
+        if (this[index1] == text[index2]) {
+            index2--
+        }
+        index1--
+    }
+
+    return 0
+}
+
+fun String.isRotateBy(text: String): Boolean {
+    val doubleString = "$this$this"
+    return doubleString.contains(text)
+}
+
+// Function to check that string is k-anagram or not
+fun String.isKAnagram(text: String, k: Int): Boolean {
+
+    if (length != text.length) {
+        return false
+    }
+
+    val charArray1 = Array(256) { 0 }
+    val charArray2 = Array(256) { 0 }
+    var count = 0
+
+    for (i in 0 until length) {
+        charArray1[this[i] - 'a']++
+    }
+
+    for (i in 0 until length) {
+        charArray2[text[i] - 'a']++
+    }
+
+    for (i in 0 until 256) {
+        if (charArray1[i] > charArray2[i]) {
+            count += Math.abs(charArray1[i] - charArray2[i])
+        }
+    }
+
+    return count <= k
+}
+
+//const int MAX_CHAR = 26;
+fun String.findUncommonCharactersWith(textTwo: String): String {
+    val charStored1 = Array(256) { 0 }
+    for (i in 0 until length) {
+        charStored1[this[i].toInt()]++
+    }
+
+    val charStored2 = Array(256) { 0 }
+    for (i in 0 until textTwo.length) {
+        charStored2[textTwo[i].toInt()]++
+    }
+    val resultBuilder = StringBuilder()
+
+    for (i in 0 until 256) {
+        if (charStored1[i] > 0 && charStored2[i] == 0) {
+            resultBuilder.append(i.toChar())
+        }
+        if (charStored2[i] > 0 && charStored1[i] == 0) {
+            resultBuilder.append(i.toChar())
+        }
+    }
+    return resultBuilder.toString()
+}
+
+fun String.needRemoveToAnagram(text: String): Int {
+    val charCount1 = Array(26) { 0 }
+    val charCount2 = Array(26) { 0 }
+
+    for (i in 0 until length) {
+        charCount1[this[i] - 'a']++
+    }
+
+    for (i in 0 until text.length) {
+        charCount2[text[i] - 'a']++
+    }
+
+    var result = 0
+    for (i in 0 until 26) {
+        result += Math.abs(charCount1[i] - charCount2[i])
+    }
+
+    return result
+}
+
+fun String.findFirstRepeatedCharacter(): String {
+
+    val charSet = HashSet<Char>()
+    for (i in 0 until length) {
+        if (charSet.contains(this[i])) {
+            return this[i].toString()
+        } else {
+            charSet.add(this[i])
+        }
+    }
+    return ""
+}
+
+fun String.nonRepeatingCharacter(): String {
+    val charCount = Array(26) { 0 }
+    for (i in 0 until length) {
+        charCount[this[i] - 'a']++
+    }
+
+    for (i in 0 until length) {
+        if (charCount[this[i] - 'a'] == 1) {
+            return this[i].toString()
+        }
+    }
+    return ""
+}
+
+fun String.longestDistinctCharacters(): Int {
+    var currentLength = 1
+    var maxLength = 1
+    var prevIndex: Int
+    val visited = Array(256) { -1 }
+
+    visited[this[0].toInt()] = 0
+
+    for (i in 1 until length) {
+        prevIndex = visited[this[i].toInt()]
+
+        if (prevIndex == -1 || i - currentLength > prevIndex) {
+            currentLength++
+        } else {
+            if (currentLength > maxLength) {
+                maxLength = currentLength
+            }
+            currentLength = i - prevIndex
+        }
+        visited[this[i].toInt()] = i
+    }
+
+    // Compare the length of last NRCS with max_len and
+    // update max_len if needed
+    if (currentLength > maxLength)
+        maxLength = currentLength;
+
+    return maxLength;
+}
+
+
+fun String.longestPalindromicSubstring(): String {
+    val table = Array(length) { Array(length) { false } }
+    var maxLength = 1
+    for (i in 0 until length) {
+        table[i][i] = true
+    }
+    var start = 0
+    for (i in 0 until length - 1) {
+        if (this[i] == this[i + 1]) {
+            table[i][i + 1] = true
+            start = i
+            maxLength = 2
+        }
+    }
+
+    for (k in 3..length) {
+
+        for (i in 0 until length - k + 1) {
+            // Get the ending index of substring from
+            // starting index i and length k
+            var j = i + k - 1
+            // checking for sub-string from ith index to
+            // jth index iff str[i+1] to str[j-1] is a
+            // palindrome
+            if (table[i + 1][j - 1] && this[i] == this[j]) {
+                table[i][j] = true
+                if (k > maxLength) {
+                    maxLength = k
+                    start = i
+                }
+            }
+        }
+    }
+
+    return substring(start, start + maxLength)
+}
+//https://algs4.cs.princeton.edu/53substring/Manacher.java.html
+//fun String.longestPalindromicLinearTime(): String {
 //
 //}
+
+fun Number.binaryConversion(): String {
+    val builder = StringBuilder()
+    var temp = this.toInt()
+    while (temp != 0) {
+        builder.append(temp % 2)
+        temp /= 2
+    }
+    return builder.toString().reverses()
+}
+
+fun String.reverses(): String {
+    val array = toCharArray()
+    for (i in 0 until length / 2) {
+        array[i] = this[length - i - 1]
+        array[length - i - 1] = this[i]
+    }
+    return String(array)
+}
+
+fun String.smallestStringContainingAllTheCharactersOf(text: String): String {
+    val len2 = text.length
+    if (length < len2) {
+        return ""
+    }
+
+    val hashPattern = CharArray(26)
+    val hashString = CharArray(26)
+
+    for (i in 0 until len2) {
+        hashPattern[text[i] - 'a']++
+    }
+
+    var start = 0
+    var start_index = -1
+    var min_len = Integer.MAX_VALUE
+
+    // start traversing the string
+    var count = 0 // count of characters
+
+    for (j in 0 until length) {
+        // count occurrence of characters of string
+        hashString[this[j] - 'a']++
+
+        if (hashPattern[this[j] - 'a'].toInt() != 0 &&
+                hashString[this[j] - 'a'] <= hashPattern[this[j] - 'a']) {
+            count++
+        }
+        if (count == len2) {
+            // Try to minimize the window i.e., check if
+            // any character is occurring more no. of times
+            // than its occurrence in pattern, if yes
+            // then remove it from starting and also remove
+            // the useless characters.
+            while (hashString[this[start] - 'a'] > hashPattern[this[start] - 'a']
+                    || hashPattern[this[start] - 'a'].toInt() == 0) {
+                if (hashString[this[start] - 'a'] > hashPattern[this[start] - 'a']) {
+                    hashString[this[start] - 'a']--
+                }
+                start++
+            }
+            // update window size
+            val len_window = j - start + 1
+            if (min_len > len_window) {
+                min_len = len_window
+                start_index = start
+            }
+        }
+    }
+    return substring(start_index, start_index + min_len)
+}
